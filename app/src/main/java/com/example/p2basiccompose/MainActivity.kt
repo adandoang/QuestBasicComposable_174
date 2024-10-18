@@ -68,7 +68,7 @@ fun basiColumn(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .clip(CircleShape)
                 .size(150.dp))
-        Text("")
+        Spacer(modifier = Modifier.padding(10.dp))
         Text("Nama:",
             fontSize = 25.sp)
         Spacer(modifier = Modifier.padding(5.dp))
