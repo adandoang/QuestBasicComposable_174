@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -14,6 +15,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -85,7 +87,8 @@ fun basiColumn(modifier: Modifier = Modifier) {
         Image(painter = painterResource(id = R.drawable.adan),
             contentDescription = "",
             modifier = Modifier
-                .size(300.dp))
+                .size(300.dp)
+                .border(2.dp, color = Color.Black, RoundedCornerShape(12.dp)))
     }
 }
 
