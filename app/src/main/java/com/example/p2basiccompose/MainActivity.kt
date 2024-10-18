@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.Scaffold
@@ -51,15 +52,15 @@ fun basiColumn(modifier: Modifier = Modifier) {
         modifier = Modifier
             .fillMaxSize()
             .padding(top = 50.dp)) {
-        Text("Hello",
-            fontSize = 100.sp,
+        Text("Login",
+            fontSize = 70.sp,
             fontWeight = FontWeight.Bold)
-        Spacer(modifier = Modifier.padding(5.dp))
-        Text("X-Boxian Player",
-            fontSize = 45.sp,
+        Spacer(modifier = Modifier.padding(3.dp))
+        Text("Ini adalah halaman Login",
+            fontSize = 25.sp,
             fontStyle = FontStyle.Italic)
         Spacer(modifier = Modifier.padding(15.dp))
-        Image(painter = painterResource(id = R.drawable.stikxbox),
+        Image(painter = painterResource(id = R.drawable.logoumy,),
             contentDescription = "",
             modifier = Modifier.clip(CircleShape))
     }
