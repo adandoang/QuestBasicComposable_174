@@ -81,10 +81,11 @@ fun basiColumn(modifier: Modifier = Modifier) {
         Text("(20220140174)",
             fontSize = 25.sp,
             fontStyle = FontStyle.Italic)
+        Spacer(modifier = Modifier.padding(10.dp))
         Image(painter = painterResource(id = R.drawable.adan),
             contentDescription = "",
             modifier = Modifier
-                .size(150.dp))
+                .size(300.dp))
     }
 }
 
