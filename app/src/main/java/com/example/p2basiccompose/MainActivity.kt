@@ -72,9 +72,10 @@ fun basiColumn(modifier: Modifier = Modifier) {
                 .size(150.dp))
         Spacer(modifier = Modifier.padding(10.dp))
         Text("Nama:",
+            fontWeight = FontWeight.Bold,
             fontStyle = FontStyle.Italic,
             fontSize = 25.sp)
-        Spacer(modifier = Modifier.padding(5.dp))
+        Spacer(modifier = Modifier.padding(3.dp))
         Text("Akhdan Jauzaa Iffat",
             fontSize = 25.sp,
             fontStyle = FontStyle.Italic,
@@ -82,6 +83,7 @@ fun basiColumn(modifier: Modifier = Modifier) {
             color = Color.Blue)
         Spacer(modifier = Modifier.padding(3.dp))
         Text("(20220140174)",
+            color = Color.Red,
             fontSize = 25.sp,
             fontStyle = FontStyle.Italic)
         Spacer(modifier = Modifier.padding(10.dp))
