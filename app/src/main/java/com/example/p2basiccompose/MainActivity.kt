@@ -70,6 +70,7 @@ fun basiColumn(modifier: Modifier = Modifier) {
         Text("")
         Text("Nama",
             fontSize = 25.sp)
+        Text("Akhdan Jauzaa Iffat")
     }
 }
 
