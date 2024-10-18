@@ -21,6 +21,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -68,9 +69,13 @@ fun basiColumn(modifier: Modifier = Modifier) {
                 .clip(CircleShape)
                 .size(150.dp))
         Text("")
-        Text("Nama",
+        Text("Nama:",
             fontSize = 25.sp)
-        Text("Akhdan Jauzaa Iffat")
+        Text("Akhdan Jauzaa Iffat",
+            fontSize = 25.sp,
+            fontStyle = FontStyle.Italic,
+            fontWeight = FontWeight.Bold,
+            color = Color.Blue,)
     }
 }
 
