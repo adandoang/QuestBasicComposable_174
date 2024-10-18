@@ -72,6 +72,7 @@ fun basiColumn(modifier: Modifier = Modifier) {
                 .size(150.dp))
         Spacer(modifier = Modifier.padding(10.dp))
         Text("Nama:",
+            fontStyle = FontStyle.Italic,
             fontSize = 25.sp)
         Spacer(modifier = Modifier.padding(5.dp))
         Text("Akhdan Jauzaa Iffat",
