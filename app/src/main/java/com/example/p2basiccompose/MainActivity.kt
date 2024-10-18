@@ -76,6 +76,8 @@ fun basiColumn(modifier: Modifier = Modifier) {
             fontStyle = FontStyle.Italic,
             fontWeight = FontWeight.Bold,
             color = Color.Blue,)
+        Text("(20220140174)",
+            fontSize = 25.sp)
     }
 }
 
