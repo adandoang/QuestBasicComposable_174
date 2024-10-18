@@ -71,11 +71,13 @@ fun basiColumn(modifier: Modifier = Modifier) {
         Text("")
         Text("Nama:",
             fontSize = 25.sp)
+        Spacer(modifier = Modifier.padding(5.dp))
         Text("Akhdan Jauzaa Iffat",
             fontSize = 25.sp,
             fontStyle = FontStyle.Italic,
             fontWeight = FontWeight.Bold,
-            color = Color.Blue,)
+            color = Color.Blue)
+        Spacer(modifier = Modifier.padding(3.dp))
         Text("(20220140174)",
             fontSize = 25.sp,
             fontStyle = FontStyle.Italic)
